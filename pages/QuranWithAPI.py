@@ -24,8 +24,8 @@ def cari_kata_arab(arti):
         st.error("Terjadi kesalahan dalam melakukan permintaan.")
 
 # Tampilan antarmuka Streamlit
-st.set_page_config(page_title="Qur'anAPI", page_icon="../ngaji.png")
-st.image("../icon.png", width=350)  # Logo or icon
+st.set_page_config(page_title="Qur'anAPI", page_icon="ngaji.png")
+st.image("icon.png", width=350)  # Logo or icon
 st.title("Search Words (Latin) in Al-Qur'an")
 st.markdown("---")
 
